@@ -1,7 +1,7 @@
 // import { useState } from 'react';
 // import reactLogo from './assets/react.svg';
 // import viteLogo from '/vite.svg';
-// import './App.css';
+import './App.css';
 
 // function App() {
 //   const [count, setCount] = useState(0);
@@ -73,8 +73,21 @@
 import { Product } from './Product';
 
 export default function App() {
+  // const foo = {
+  //   color: 'red',
+  //   paddingBottom: '10px',
+  //   margin: 10,
+  //   border: '1px solid red',
+  // };
+
+  // const getStyles = () => {
+  //   return {
+  //     background: 'red',
+  //   };
+  // };
+
   return (
-    <div>
+    <div className="container">
       <h1>Best selling</h1>
 
       <Product

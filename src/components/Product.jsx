@@ -39,6 +39,8 @@
 //   );
 // };
 
+import './Product.css';
+
 export const Product = ({ name, imgUrl, price }) => {
   return (
     <div>
